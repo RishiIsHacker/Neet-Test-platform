@@ -1,16 +1,11 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Login from './Login';
-import TestPage from './TestPage';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/test" element={<TestPage />} />
-      </Routes>
-    </BrowserRouter>
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>Hello, NEET Test!</h1>
+      <p>Your frontend is working perfectly.</p>
+    </div>
   );
 }
 
